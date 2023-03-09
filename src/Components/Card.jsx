@@ -8,7 +8,7 @@ const Card = ({ id, image, name, author, description, country }) => {
   const [flag, setFlag] = useState(null);
 
   useEffect(() => {
-    if (!country.length) return;
+    if (!country?.length) return;
     axios
       .get("https://restcountries.com/v3.1/name/" + country)
       .then((response) => setFlag(response.data[0].flags.svg));
@@ -25,7 +25,7 @@ const Card = ({ id, image, name, author, description, country }) => {
         <p>{author}</p>
 
         <p className={classes.desc}>
-          {description.split(" ").splice(0, 10).join(" ") + "..."}
+          {description?.split(" ").splice(0, 10).join(" ") + "..."}
         </p>
         <Link to={`${id}`} className={classes.link}>
           See more
