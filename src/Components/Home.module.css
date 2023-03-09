@@ -1,0 +1,33 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  z-index: 0;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.menu_card {
+  min-height: 150px;
+  width: 300px;
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.5rem;
+  background-color: white;
+  border: solid 1px grey;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+.menu_card a {
+  color: silver;
+  text-decoration: none;
+}

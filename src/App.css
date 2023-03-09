@@ -1,0 +1,33 @@
+html {
+  background-color: #abaaad;
+}
+
+input,
+textarea,
+select {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  padding-left: 0.5rem;
+}
+
+input,
+select {
+  height: 2rem;
+}
+
+button {
+  font-family: inherit;
+  margin: 1rem 0 1rem 0;
+  background-color: #ff5252;
+  border-style: none;
+  border-radius: 3px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin-bottom: 1rem;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
