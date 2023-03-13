@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import Card from "../Card";
+import Card from "../Components/Card";
 import { BrowserRouter } from "react-router-dom";
 
 describe("Check if Link component renders inside of Card", () => {

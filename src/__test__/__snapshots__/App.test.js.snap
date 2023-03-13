@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`first snapshot test 1`] = `
+<div
+  className="layout"
+>
+  <header
+    className="header"
+  >
+    <a
+      aria-current="page"
+      className="active"
+      href="/"
+      onClick={[Function]}
+    >
+      <div
+        className="logo_wrap"
+      >
+        <span
+          className="material-symbols-outlined"
+        >
+          restaurant
+        </span>
+        <h2
+          className="logo"
+        >
+          TasteIT App
+        </h2>
+      </div>
+    </a>
+    <nav
+      className="nav"
+    >
+      <ul
+        className="ul"
+      >
+        <li>
+          <a
+            aria-current="page"
+            className="active"
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            href="/allrecipes"
+            onClick={[Function]}
+          >
+            All Recipes
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            href="/addrecipe"
+            onClick={[Function]}
+          >
+            Add New Recipe
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main
+    className="main"
+  >
+    <div
+      className="home"
+    >
+      <div>
+        <div>
+          <video
+            autoPlay={true}
+            loop={true}
+            muted={true}
+            src="video1.mp4"
+          />
+        </div>
+        <div
+          className="hero_content"
+        >
+          <h3
+            className="hero_title"
+          >
+            Application where people all around the world can share their favourite recipes.
+          </h3>
+          <p
+            className="hero_title"
+          >
+            Made in REACT22S Group with Margit Tennosaar
+          </p>
+        </div>
+      </div>
+      <div
+        className="menu"
+      >
+        <div
+          className="menu_card"
+        >
+          <h4>
+            Browse Recipes
+          </h4>
+          <p>
+            Search for your favorite recipe
+          </p>
+          <a
+            className=""
+            href="/allrecipes"
+            onClick={[Function]}
+          >
+            All recipes
+          </a>
+        </div>
+        <div
+          className="menu_card"
+        >
+          <h4>
+            Add new recipes
+          </h4>
+          <p>
+            Add new recipe from your own country
+          </p>
+          <a
+            className=""
+            href="/addrecipe"
+            onClick={[Function]}
+          >
+            Add new recipe
+          </a>
+        </div>
+        <div
+          className="menu_card"
+        >
+          <h4>
+            Learn more about our projects
+          </h4>
+          <p>
+            Visit our programme homepage
+          </p>
+          <a
+            href="https://en.bc.fi/qualifications/full-stack-web-developer-program/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            BC Helsinki hompepage
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer
+    className="footer"
+  >
+    <p
+      className="footer_info"
+    >
+      Marina Zhivotova © 2023
+    </p>
+  </footer>
+</div>
+`;
